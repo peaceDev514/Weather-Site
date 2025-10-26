@@ -164,7 +164,7 @@ setPosition={setPosition}
           <div className="locations">  
             {currentLocation || place || mapPlace ? (  
               <h2>{currentLocation || place || mapPlace}</h2>  
-            ) : null}  
+            ) : <h2>PMO</h2>}  
           </div>  
         )}  
         <p onClick={() => setShowSearch(!showSearch)}>  
@@ -249,7 +249,7 @@ setPosition={setPosition}
               />  
             </div>  
           ) : (  
-            <p>No weather data yet. Search for a city above.</p>  
+            <p>Kindly enter your preferred city</p>  
           )}  
         </>  
       )}  

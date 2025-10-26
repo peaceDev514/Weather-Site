@@ -34,8 +34,8 @@ border-radius: 10px;
 position: absolute;
 transform: translate(-160px, -50px);
 width: 250px;
-background-color: black;
-color: white;
+background-color: white;
+color: black;
 }
 /* .weather button{
 background-color: green;
@@ -97,9 +97,13 @@ border-radius: 10px;
 .header {
 	display: flex;
 	justify-content: space-around;
-	margin-top: -40px;
+	margin: -50px 0 10px 0;
+	background-color: white;
+	color: black;
 }
-
+.header p {
+	color: black;
+}
 #closeIcon{
 	transform: translateX(130px);
 }
