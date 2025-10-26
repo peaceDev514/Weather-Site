@@ -100,6 +100,7 @@ border-radius: 10px;
 	margin: -50px 0 10px 0;
 	background-color: white;
 	color: black;
+	height: 60px;
 }
 .header p {
 	color: black;
@@ -190,4 +191,13 @@ border-radius: 10px;
 	color: black;
 	font-weight: bold;
 }
-
+.footer{
+	background-color: white;
+	height: 70px;
+	width: auto;
+	margin-top: 400px;
+	color: black;
+}
+.footer h4 {
+	margin-top: -15px;
+}
